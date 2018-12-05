@@ -1,0 +1,11 @@
+How to Increase the PHP Memory Limit for WordPress:
+1. Go to CPannel
+2. File Manager
+3. Search for "wp-config.php"
+4. Edit/Open the file
+5. Under the MySQL setting add  define( 'WP_MEMORY_LIMIT', '128M' );
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'ss_dbname_b4iihd2c6h');
+define( 'WP_MEMORY_LIMIT', '128M' );
