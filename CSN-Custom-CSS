@@ -1,0 +1,16 @@
+/*My Custom CSS */
+
+/* Incerase the font size of accordion in career page */
+.mk-accordion-tab span {
+	font-size: 20px;
+}
+
+/* Change the color of text when hover in career page */
+.mk-accordion-tab span:hover {
+	color: #6666FF;
+}
+
+/* Remove Menu on the Careers page */
+.page-id-5050 .mk-main-navigation {
+	display:none !important;
+}
